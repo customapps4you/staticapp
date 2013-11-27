@@ -5,10 +5,10 @@
 	    id = "br.com.customapps4you.staticapp"
         versionCode="1" 
 	>
-    <name>Manuella Hair Club</name>
+    <name>Static App</name>
 
     <description>
-        Manuella Hair Club 
+        Static App 
     </description>
 
     <author>
