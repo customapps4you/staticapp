@@ -1,0 +1,87 @@
+/** ************************* **/
+/** Froont widget base styles **/
+/** ************************* **/
+.fr-widget h1, .fr-widget h2, .fr-widget h3, .fr-widget h4, .fr-widget h5, .fr-widget h6, .fr-widget p {
+  margin: 0;
+}
+body {
+  font-size: 62.5%;
+  	background-image: url(../img/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+.b-content {
+  font-size: 1.6em;
+  padding-top: 0.02px;
+}
+.b-content.loading {
+  opacity: 0;
+}
+.b-content:after {
+  content:".";
+  display: none;
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.fr-widget {
+  display: block;
+}
+
+.fr-img {
+  line-height: 0;
+}
+.fr-img img {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+/** ******************************** **/
+/** End of Froont widget base styles **/
+/** ******************************** **/
+
+/** ************************* **/
+/** Widget styles             **/
+/** ************************* **/
+.fr_binafi {
+  width:24.750394114555963%;
+  margin:0 auto 0 auto
+}
+
+@media screen and (max-width:1024px) {
+  .fr_binafi {
+    width:54.1015625%;
+    margin:0 auto 0 auto
+  }
+}
+
+@media screen and (max-width:768px) {
+  .fr_binafi {
+    width:68.75%;
+    margin:0 auto 0 auto
+  }
+}
+
+@media screen and (max-width:320px) {
+  .fr_binafi {
+    width:84.375%;
+    margin:0 auto 0 auto
+  }
+}
+
+/** ******************************** **/
+/** End of widget styles             **/
+/** ******************************** **/

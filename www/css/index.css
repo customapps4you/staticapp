@@ -1,0 +1,381 @@
+/** ************************* **/
+/** Froont widget base styles **/
+/** ************************* **/
+.fr-widget h1, .fr-widget h2, .fr-widget h3, .fr-widget h4, .fr-widget h5, .fr-widget h6, .fr-widget p {
+  margin: 0;
+}
+html, body, button, input, select, textarea {
+  font-family:"PT Sans", Tahoma, Verdana, sans-serif;
+}
+body {
+  font-size: 62.5%;
+  	background-image: url(../img/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.b-content {
+  font-size: 1.6em;
+  padding-top: 0.02px;
+}
+.b-content.loading {
+  opacity: 0;
+}
+.b-content:after {
+  content:".";
+  display: none;
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+a {
+  color: #000;
+  text-decoration: underline;
+}
+.fr-wf {
+  -webkit-transition: opacity .1s linear;
+  -moz-transition: opacity .1s linear;
+  -o-transition: opacity .1s linear;
+  transition: opacity .1s linear;
+  word-break: break-word;
+}
+.wf-loading .fr-wf {
+  opacity: 0 !important;
+}
+.wf-inactive .fr-wf, .wf-active .fr-wf {
+  opacity: 1;
+}
+.fr-container:after {
+  content:".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.fr-widget {
+  display: block;
+}
+.fr-text * {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
+.fr-text i {
+  font-style: italic;
+}
+.fr-text u {
+  text-decoration: underline;
+}
+.fr-text del, .fr-text s, .fr-text strike {
+  text-decoration: line-through;
+}
+.fr-text b, .fr-text strong, .fr-text h1, .fr-text h2, .fr-text h3, .fr-text h4, .fr-text h5, .fr-text h6 {
+  font-weight: bold;
+}
+.fr-img {
+  line-height: 0;
+}
+.fr-img img {
+  width: 100%;
+  max-width: 100%;
+}
+.fr-svg svg {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+.fr-svg-inner svg {
+  position: absolute;
+}
+/** clear content around grid widget container, because it contains a lot of floated elements **/
+ .fr-grid:before, .fr-grid:after {
+  content:".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.fr-grid > .fr-widget {
+  float: left;
+}
+.fr-video-inner {
+  position: relative;
+}
+.fr-video-inner iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.fr_hover-animation {
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: background, color, border-radius;
+  -moz-transition-property: background, color, border-radius;
+  -o-transition-property: background, color, border-radius;
+  transition-property: background, color, border-radius;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+.fr-video-inner p {
+  display: none;
+}
+.fr-copyright-footer {
+  bottom: 0;
+  width: 100%;
+}
+.fr-copyright-footer.fixed {
+  position: fixed;
+  left: 0;
+  z-index: -1;
+}
+.fr-copyright-footer > .fr-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #242424;
+}
+.fr-copyright-footer .fr-made-with-froont {
+  width: auto;
+  font-family: Arial;
+  font-size: .6em;
+  line-height: 1.6em;
+  text-align: center;
+  letter-spacing: .25em;
+  margin: 0 auto;
+  padding: 2em 0 1em 0;
+  color: #979797;
+}
+.fr-copyright-footer .fr-made-with-froont .fr-text {
+  min-width: 100%;
+}
+.fr-copyright-footer .fr-made-with-froont .fr-text .heart {
+  font-size: 2.1em;
+}
+.fr-copyright-footer .fr-bottom-em-spacer {
+  height: 1em;
+  background: #242424;
+}
+
+/** ******************************** **/
+/** End of Froont widget base styles **/
+/** ******************************** **/
+
+/** ************************* **/
+/** Widget styles             **/
+/** ************************* **/
+.fr_binafi {
+  width:24.750394114555963%;
+  margin:0 auto 0 auto
+}
+.fr_derepi {
+  width:28.63899106673673%;
+  margin:3.4375em 0 0 35.73305307409353%
+}
+.fr_tihuse {
+  width:28.63899106673673%;
+  margin:0 auto 0 auto
+}
+.fr_bosoku {
+  width:28.63899106673673%;
+  margin:0 auto 0 auto
+}
+.fr_konuvi {
+  width:28.63899106673673%;
+  margin:0 auto 0 auto
+}
+.fr_misemo {
+  width:28.63899106673673%;
+  margin:0 auto 0 auto
+}
+.fr_bupupa {
+  width:28.63899106673673%;
+  margin:0 auto 0 auto
+}
+@media screen and (max-width:1024px) {
+  .fr_binafi {
+    width:54.1015625%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:1024px) {
+  .fr_derepi {
+    width:47.0703125%;
+    margin:3.5em 0 0 26.3671875%
+  }
+}
+@media screen and (max-width:1024px) {
+  .fr_tihuse {
+    width:47.265625%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:1024px) {
+  .fr_bosoku {
+    width:47.265625%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:1024px) {
+  .fr_konuvi {
+    width:47.4609375%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:1024px) {
+  .fr_misemo {
+    width:47.265625%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:1024px) {
+  .fr_bupupa {
+    width:47.4609375%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_binafi {
+    width:68.75%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_derepi {
+    width:73.95833333333334%;
+    margin:4.1875em 0 0 13.671875%
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_tihuse {
+    width:73.828125%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_bosoku {
+    width:73.95833333333334%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_konuvi {
+    width:73.828125%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_misemo {
+    width:73.95833333333334%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:768px) {
+  .fr_bupupa {
+    width:73.828125%;
+    margin:2.4375em 0 0 13.020833333333334%
+  }
+}
+@media screen and (max-width:480px) {
+  .fr_derepi {
+    width:91.45833333333334%;
+    margin:1.375em 0 0 4.583333333333333%
+  }
+}
+@media screen and (max-width:480px) {
+  .fr_tihuse {
+    width:91.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:480px) {
+  .fr_bosoku {
+    width:91.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:480px) {
+  .fr_konuvi {
+    width:91.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:480px) {
+  .fr_misemo {
+    width:91.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:480px) {
+  .fr_bupupa {
+    width:90.83333333333334%;
+    margin:1.5em 0 0 2.7083333333333335%
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_binafi {
+    width:84.375%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_derepi {
+    width:96.25%;
+    margin:3.5em 0 0 1.875%
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_tihuse {
+    width:96.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_bosoku {
+    width:95.625%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_konuvi {
+    width:96.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_misemo {
+    width:96.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:320px) {
+  .fr_bupupa {
+    width:96.25%;
+    margin:0 auto 0 auto
+  }
+}
+@media screen and (max-width:640px) {
+  .fr_bupupa {
+    width:75%;
+    margin:0 0 0 12.0625%
+  }
+}
+
+/** ******************************** **/
+/** End of widget styles             **/
+/** ******************************** **/
