@@ -1,0 +1,4 @@
+staticapp
+=========
+
+staticapp
