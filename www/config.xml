@@ -15,4 +15,12 @@
         Ricardo Tominaga
     </author>
 	
+	<icon src="img/57_57.png" gap:platform="ios" width="57" height="57" />
+	<icon src="img/72_72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="img/114_114.png" gap:platform="ios" width="114" height="114" />
+	
+	<gap:splash src="img/320_480.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="img/640_960.png" gap:platform="ios" width="640" height="960" />
+	<gap:splash src="img/640_1136.png" gap:platform="ios" width="640" height="1136" />
+	
 </widget>
